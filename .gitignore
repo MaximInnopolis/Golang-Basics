@@ -18,4 +18,7 @@
 # vendor/
 
 # Go workspace file
+.idea
+go.mod
+go.
 go.work
