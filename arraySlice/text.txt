@@ -1,0 +1,8 @@
+Can be written "[...]" when we do not want to count
+the number of elements in array
+
+Slice - dynamic arrays
+Default value of slice - nil
+Length - number of elements in slice
+Capacity - the maximum number of elements
+that could fit in slice

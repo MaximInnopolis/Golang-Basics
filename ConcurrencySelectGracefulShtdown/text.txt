@@ -1,0 +1,5 @@
+1. select - unblock, block, default
+(Сначала неблокирующая операция,
+если их несколько переходит по рандомному кейсу)
+2. time.After
+3. graceful shutdown

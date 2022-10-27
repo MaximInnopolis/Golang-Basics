@@ -1,0 +1,2 @@
+From previous lesson we can see proof that
+if we change values of the array slices also change their values

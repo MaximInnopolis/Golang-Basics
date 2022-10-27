@@ -1,0 +1,11 @@
+If we give slice into function and inside function value of slice changes,
+outside function values of function also changes
+
+However, if inside function capacity of slice increases new slice created,
+so return of the slice needed in order to update changes
+
+type _slice struct{
+    elements unsafe.Pointer //Указатель на маасив с определенным типом данных
+    len int
+    cap int
+}

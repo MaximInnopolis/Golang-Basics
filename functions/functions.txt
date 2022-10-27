@@ -1,0 +1,18 @@
+Function sample:
+
+func NamedSumAndMult(fV, sV int) (sum int64, mult int64) {
+	sum = int64(fV + sV)
+	mult = int64(fV) * int64(sV)
+	return
+}
+
+Functions as type of variable:
+multiplier := func(x, y int) int { return x * y }
+
+Нейминг как модификатор доступа к функциям:
+С заглавной буквы доступно, с прописной нет
+
+import "fmt"
+
+fmt.Println(...) доступно;
+fmt.getField(...) не доступно

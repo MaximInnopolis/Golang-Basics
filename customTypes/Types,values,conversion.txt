@@ -1,0 +1,20 @@
+Primitive types:
+byte = uint8
+rune = int32 = ''
+uint is >= 0
+
+Модификаторы:
+%T - выводит тип переменной
+%v - выводит значение переменной
+
+Initialization:
+var max int = 10	max:=10
+
+Initialization beyong func:
+with var
+
+Function that works with strings Sprintf():
+%s - include string inside another new  
+
+Blank indentificator in order to run program with empty variable:
+_ =
